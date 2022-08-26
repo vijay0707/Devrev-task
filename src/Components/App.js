@@ -1,12 +1,12 @@
 import "./App.css";
 import BookList from "./BookList/BookList";
-import Navbar from "./Navbar";
+import Navbar from "./Extras/Navbar";
 
 function App() {
   return (
     <>
       <Navbar />
-      <div className="container mt-5 h-100">
+      <div className="container p-5 align-items-center">
         <BookList />
       </div>
     </>
